@@ -1,65 +1,83 @@
-# 🧶 Handmade Crafts Store - Empowering Artisans Online
+# 🎨 Handmade Crafts Store - Empowering Creativity, One Craft at a Time
 
-Welcome to the **Handmade Crafts Store**, a vibrant online marketplace connecting skilled local artisans with customers who appreciate unique, handcrafted creations. This platform offers a curated collection of handmade products and enables users to place custom design orders, making every purchase meaningful and personal.
-
-
----
-
-## 📌 Project Overview
-
-The Handmade Crafts Store bridges the gap between creativity and commerce. Artisans can showcase their talent through digital storefronts, while customers enjoy the ability to browse, order, or request custom handmade products—all in one place. With user-friendly interfaces for buyers, sellers, and administrators, the platform ensures a seamless experience for all participants.
+**Handmade Crafts Store** is a full-featured web-based marketplace built to connect skilled artisans with buyers who appreciate personalized, handmade products. This platform not only facilitates product browsing and purchasing, but also enables custom design orders, efficient order tracking, and artisan empowerment.
 
 ---
 
-## ✨ Features
+## 🔍 Project Summary
 
-### 👤 Customer Panel
-- 🔐 **Register & Login** (Email-based + Social media options)
-- 🛍️ **Browse Products** by category, artisan, or keyword
-- 📦 **Product Detail Pages** with reviews, ratings & descriptions
-- 🎨 **Custom Design Requests** form with direct artisan messaging
-- 🛒 **Shopping Cart & Secure Checkout** (Multi-payment methods)
-- 🚚 **Order Tracking & Notifications**
-- 💖 **Wishlist & Saved Products**
-- 🧾 **Profile & Order History Management**
-
-### 🧑‍🎨 Artisan Panel
-- 🔐 **Register & Login**
-- 📤 **Product Management** (Images, Price, Inventory)
-- ✨ **Custom Order Handling** with customer communication
-- 📈 **Sales Reports** and feedback tracking
-- ✍️ **Profile Customization & Bio Management**
-
-### 🛠️ Admin Panel
-- 📊 **Dashboard Overview** (Users, Sales, Products, Artisans)
-- 👥 **User & Artisan Account Management**
-- 🧾 **Product Approval Workflow**
-- 🛒 **Order Oversight**
-- 🖼️ **Homepage & Site Content Management**
-- 📉 **Reports & Analytics** (Sales trends, Popular items, Behavior)
+✨ **Handmade Crafts Store** is more than just an online shop. It's a purpose-driven digital ecosystem that:
+- Helps **local artisans** expand their reach and income.
+- Offers **customers** exclusive handmade products.
+- Supports **custom design orders** with direct artisan communication.
+- Provides **admin-level control** over the entire platform.
 
 ---
 
-## 🧑‍💻 Technologies Used
+## 🚀 Key Highlights
 
-- **Frontend:** HTML, CSS (Bootstrap), JavaScript
-- **Backend:** PHP (Core)
-- **Database:** MySQL
-- **Icons & UI:** Font Awesome
-- **Libraries:** jQuery, Bootstrap 5.3
+| Role        | Key Features                                                                 |
+|-------------|------------------------------------------------------------------------------|
+| 🧑‍💼 Customer  | Register/Login, Product Search, Wishlist, Order Tracking, Custom Requests |
+| 🧵 Artisan   | Upload Products, Manage Orders, Handle Custom Requests, View Reports       |
+| 👨‍💻 Admin     | Manage Users, Approve Listings, Monitor Orders, Generate Reports          |
 
 ---
 
-## 📂 Folder Structure
+## 💻 Features Overview
+
+### 👤 Customer Portal
+- ✅ **User Registration & Login**
+- 🔍 **Browse by Category**, Price, Name, Artisan
+- 💬 **Product Reviews & Ratings**
+- 🎨 **Request Custom Designs**
+- 🛒 **Shopping Cart & Secure Checkout**
+- 📦 **Order History & Real-Time Status**
+- 💖 **Wishlist for Future Purchases**
+- 🧾 **Profile & Address Management**
+
+### 🧑‍🎨 Artisan Dashboard
+- ✅ **Seller Registration/Login**
+- 🖼️ **Add/Edit/Delete Product Listings**
+- 📥 **Receive and Respond to Custom Orders**
+- 📊 **View Sales Performance Reports**
+- 📦 **Manage Incoming Orders and Delivery Updates**
+- 📝 **Update Artisan Profile and Bio**
+
+### 👨‍💼 Admin Panel
+- 📊 **Interactive Dashboard**
+- 🧑‍💼 **User & Artisan Account Management**
+- ✅ **Product Approval/Moderation Workflow**
+- 📦 **Full Order Oversight**
+- 🖼️ **Homepage Content & Banners Control**
+- 📈 **View Reports (Sales, User Activity, Inventory)**
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology    | Purpose                                |
+|---------------|----------------------------------------|
+| **PHP (Core)**| Server-side logic & API                |
+| **MySQL**     | Relational Database                    |
+| **HTML/CSS**  | Page Structure & Styling               |
+| **Bootstrap** | Responsive UI Components               |
+| **JavaScript**| Interactive Elements (e.g., Copy Link) |
+| **Font Awesome** | Icons throughout the UI             |
+
+---
+
+## 📁 Folder Structure
 
 ```bash
-├── admin/
-│   └── dashboard, user_mgmt, product_mgmt, etc.
-├── artisan/
-│   └── upload_product.php, manage_orders.php, etc.
-├── user/
-│   └── view_products.php, cart.php, wishlist.php, etc.
-├── db_connection.php
-├── index.php
-├── about.php
+📦 Handmade-Crafts-Store/
+├── artisan/           # Artisan dashboard and features
+├── user/              # User panel (shopping, wishlist, etc.)
+├── admin/             # Admin dashboard and control
+├── receipts/            # payment receipts,
+├── includes/          # Navbar, footer, and shared UI
+├── uploads/           # Product and background images
+├── db_connection.php  # Database config
+├── index.php          # Homepage
+├── about.php          # About Us page
 └── README.md
