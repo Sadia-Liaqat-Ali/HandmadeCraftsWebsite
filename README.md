@@ -11,6 +11,7 @@
 - Offers **customers** exclusive handmade products.
 - Supports **custom design orders** with direct artisan communication.
 - Provides **admin-level control** over the entire platform.
+- provide  **Real time communication** between customer and seler.
 
 ---
 
